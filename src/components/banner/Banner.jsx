@@ -27,7 +27,7 @@ const Banner = () => {
                 SRO
               </button>
             </div>
-            <h1 className="text-white pt-[30px] leading-[130%] pb-[20px] text-[64px] mx-auto font-bold lg:w-[850px]">
+            <h1 className="text-white pt-[30px] leading-[130%] pb-[20px] md:text-[40px] sm:text-[50px] text-[45px] lg:text-[64px] mx-auto font-bold lg:w-[850px]">
               Guaranteed increase of your website sales
             </h1>
             <p className="text-white text-[18px] pb-[48px] leading-[200%] mx-auto font-normal lg:w-[750px]">
@@ -36,13 +36,13 @@ const Banner = () => {
               layers which enable us to understand.
             </p>
 
-            <div className="">
+            <div className="lg:block md:block sm:block justify-center flex">
               <input
-                className="py-[30px] text-[16px] font-normal focus:outline-none rounded-l-[15px] text-black bg-white pl-[30px] lg:pr-[227px]"
+                className="py-[30px] px-3 text-[16px] font-normal focus:outline-none rounded-l-[15px] text-black bg-white md:pl-[20px] lg:pl-[30px] lg:pr-[227px]"
                 type="text"
                 placeholder="paste your website links"
               />
-              <button className="py-[30px] rounded-r-[15px] px-[30px] bg-[#6A55EA]">
+              <button className="lg:py-[30px] md:py-[25] sm:py-[30px] rounded-r-[15px] px-4 md:px-[25px] sm:px-[25px] lg:px-[30px] bg-[#6A55EA]">
                 Analyze website
               </button>
             </div>
