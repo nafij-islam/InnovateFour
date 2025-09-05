@@ -1,0 +1,80 @@
+@media (max-width:1024px) {
+     .banall{
+        display: none;
+     }
+}
+
+@media (max-width: 640px) {
+   .textmaindiv{
+    padding-top: 200px;
+   }
+}
+
+@media (min-width: 640px) and (max-width:1023px) {
+   .textmaindiv{
+    padding-top: 200px;
+   }
+}
+
+.animaone{
+   position: absolute;
+   animation: ani 3s infinite alternate linear;
+}
+
+@keyframes ani {
+   0%{
+     transform: scale(1.0);
+   }
+   100%{
+      transform: scale(1.21);
+   }
+   
+}
+
+.animatwo{
+   position: absolute;
+   animation: ani2 4s infinite alternate linear;
+}
+
+@keyframes ani2 {
+   0%{
+     transform: scale(1.0);
+   }
+   100%{
+      transform: scale(1.7);
+   }
+   
+}
+
+
+@keyframes rocketUp {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-200px) rotate(-5deg);
+    opacity: 0.8;
+    
+  }
+  100% {
+    transform: translateY(-600px) rotate(-10deg);
+    opacity: 0;
+    right: 600px;
+  }
+}
+
+.rocket {
+  position: absolute;
+ animation: rocketUp 4s  ease-in-out infinite;
+}
+
+
+.roundani{
+   animation: rotateCircle 4s linear infinite;
+}
+
+@keyframes rotateCircle {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
