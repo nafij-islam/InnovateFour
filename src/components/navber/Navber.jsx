@@ -22,11 +22,11 @@ const Navber = () => {
           <div
             className={`lg:static duration-300 lg:flex lg:justify-center w-[30%] rounded-[10px]  ${
               show
-                ? "bg-sky-400 absolute top-[61px] left-[50%] translate-x-[-50%] w-[100%] "
+                ? "bg-[#6A55EA] absolute top-[61px] left-[50%] translate-x-[-50%] w-[100%] "
                 : " absolute top-[61px] left-[-100%] w-full"
             }`}
           >
-            <ul className="flex flex-col lg:flex-row md:gap-2 sm:gap-2  items-center lg:gap-10 text-center ">
+            <ul className="flex py-3 flex-col lg:py-0 lg:flex-row gap-2 md:gap-2 sm:gap-2  items-center lg:gap-10 text-center ">
               <li>
                 <a
                   className="text-white  font-san font-semibold text-[18px] flex items-center"
@@ -75,7 +75,7 @@ const Navber = () => {
                   Blog <IoIosArrowDown />
                 </a>
               </li>
-              <button className="py-[7px] px-[16px] block lg:hidden border-1   ms:mb-4 sm:mb-4 lg:mb-0 duration-200 border-white text-white rounded-[18px] hover:bg-[#182a3e]">
+              <button className="py-[7px]  px-[16px] block lg:hidden border-1 mt-2 mb-3 sm:mb-4 lg:mb-0 duration-200 border-white text-white rounded-[18px] hover:bg-[#182a3e]">
                 Contact Us
               </button>
             </ul>

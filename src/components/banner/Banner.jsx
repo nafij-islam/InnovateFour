@@ -27,7 +27,7 @@ const Banner = () => {
                 SRO
               </button>
             </div>
-            <h1 className="text-white pt-[30px] leading-[130%] pb-[20px] md:text-[40px] sm:text-[50px] text-[45px] lg:text-[64px] mx-auto font-bold lg:w-[850px]">
+            <h1 className="text-white pt-[30px] leading-[130%] pb-[20px] md:text-[55px] sm:text-[40px] text-[35px] lg:text-[64px] mx-auto font-bold lg:w-[850px]">
               Guaranteed increase of your website sales
             </h1>
             <p className="text-white text-[18px] pb-[48px] leading-[200%] mx-auto font-normal lg:w-[750px]">
@@ -55,6 +55,10 @@ const Banner = () => {
         <img className="w-full animatwo absolute top-21 left-0 bg-cover bg-no-repeat" src={ban3} alt="" />
         <img className="w-[300px] rocket absolute top-[-300px] right-0 bg-cover bg-no-repeat" src={ban4} alt="" />
         <img className="w-[150px] roundani  absolute top-[-460px] opacity-20 left-50  bg-cover bg-no-repeat" src={ban5} alt="" />
+        
+      </div>
+
+      <div>
         
       </div>
       </div>

@@ -2,8 +2,8 @@ import React from 'react'
 
 const CaseCard = ({src,heading,pera}) => {
   return (
-    <div>
-        <div>
+    <div className='hover:cursor-pointer hover:border-2 border-2 duration-400 border-transparent hover:border-sky-400 p-2'>
+        <div >
             <img className='lg:w-[450px] lg:h-[330px]' src={src} alt="" />
         </div>
         <div>

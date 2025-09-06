@@ -3,7 +3,7 @@ import HelpCard from './HelpCard';
 import help1 from '../../assets/helpicon1.png'
 import help2 from '../../assets/helpicon2.png'
 import help3 from '../../assets/helpicon3.png'
-import helpicon from '../../assets/aniicon.png'
+
 import helptimeimg from '../../assets/helptimeimg.png'
 
 const Help = () => {
@@ -16,16 +16,16 @@ const Help = () => {
           </div>
           <div className='lg:flex lg:justify-between md:px-3 lg:px-0 sm:px-3 px-3  md:gap-5 md:flex lg:flex-nowrap md:flex-wrap   pb-[100px]'>
               <div className='lg:w-[24%] md:w-[48%]  lg:pb-0 md:pb-0 pb-7'>
-                    <HelpCard extraSrc={helpicon} src={help1} cardtext="Real time analytics" className="bg-[#F8A64C]"/>
+                    <HelpCard overclassName="bg-[#F8A64C]" hoverclassName="bg-[#F8A64C]" src={help1} cardtext="Real time analytics" className="bg-[#F8A64C]"/>
               </div>
                  <div className='lg:w-[24%]  md:w-[48%]  lg:pb-0 md:pb-0 pb-7'>
-                    <HelpCard extraSrc={helpicon}  src={help2} cardtext="Social media stragedy" className="bg-[#F0EDFF]"/>
+                    <HelpCard overclassName="bg-[#BBB0FF]" hoverclassName="bg-[#BBB0FF]"  src={help2} cardtext="Social media stragedy" className="bg-[#F0EDFF]"/>
               </div>
                <div className='lg:w-[24%]  md:w-[48%]  lg:pb-0 md:pb-0 pb-7'>
-                    <HelpCard extraSrc={helpicon} src={help3} cardtext="Media management" className="bg-[#E8FCF2]" />
+                    <HelpCard overclassName="bg-[#ABF9D2]" hoverclassName="bg-[#ABF9D2]" src={help3} cardtext="Media management" className="bg-[#E8FCF2]" />
               </div>
                <div className='lg:w-[24%]  md:w-[48%] lg:pb-0 md:pb-0 pb-7'>
-                    <HelpCard extraSrc={helpicon} src={help1} cardtext="Reporting & analysis" className="bg-[#FEF6EC]"/>
+                    <HelpCard overclassName="bg-[#FBDAB4]" hoverclassName="bg-[#FBDAB4]" src={help1} cardtext="Reporting & analysis" className="bg-[#FEF6EC]"/>
               </div>
           </div>
 
