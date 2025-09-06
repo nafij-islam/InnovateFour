@@ -20,7 +20,7 @@ const Home = () => {
         <Case/>
         <Plans/>
         <Seo/>
-        {/* <Footer/> */}
+        <Footer/>
       </>
   )
 }

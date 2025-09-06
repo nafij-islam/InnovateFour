@@ -5,7 +5,7 @@ import './traffic.css'
 
 const Traffic = () => {
   return (
-    <section className='lg:py-[111px] py-10'>
+    <section className='lg:py-[111px] py-10 px-1'>
         <div className='max-w-[1320px] mx-auto'>
             <div className='flex justify-between flex-wrap'>
                 <div className='lg:w-[48%] tra-text pb-10 lg:pb-0 sm:text-center lg:text-start md:text-center'>
