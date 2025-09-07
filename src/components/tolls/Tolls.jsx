@@ -7,7 +7,7 @@ import tolicon3 from "../../assets/tolicon3.png";
 
 const Tolls = () => {
   return (
-    <section className="lg:py-10 md:py-10 px-2">
+    <section className="lg:py-10 md:py-10 py-8 px-2">
       <div className="max-w-[1320px] mx-auto">
         <div>
           <h3 className="text-[#7968EF] text-[24px] font-medium text-center">

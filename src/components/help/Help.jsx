@@ -8,13 +8,13 @@ import helptimeimg from '../../assets/helptimeimg.png'
 
 const Help = () => {
   return (
-   <section className='bg-[#F1FBFB] py-[120px]'>
+   <section className='bg-[#F1FBFB] py-[80px] lg:py-[120px] px-3'>
        <div className='max-w-[1320px] mx-auto'>
           <div className='text-center'>
              <h4 className='text-[24px] font-medium pb-[14px] text-[#7968EF]'>Our process</h4>
              <h2 className='text-[48px] font-semibold pb-[60px]'>How can we help?</h2>
           </div>
-          <div className='lg:flex lg:justify-between md:px-3 lg:px-0 sm:px-3 px-3  md:gap-5 md:flex lg:flex-nowrap md:flex-wrap   pb-[100px]'>
+          <div className='lg:flex lg:justify-between md:justify-between md:px-3 lg:px-0 sm:px-3 px-3  md:gap-5 md:flex lg:flex-nowrap md:flex-wrap   pb-[100px]'>
               <div className='lg:w-[24%] md:w-[48%]  lg:pb-0 md:pb-0 pb-7'>
                     <HelpCard overclassName="bg-[#F8A64C]" hoverclassName="bg-[#F8A64C]" src={help1} cardtext="Real time analytics" className="bg-[#F8A64C]"/>
               </div>
