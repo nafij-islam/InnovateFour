@@ -13,7 +13,7 @@ const Navber = () => {
   };
 
   return (
-    <nav className="lg:py-4 absolute w-full top-4">
+    <nav className="lg:py-4 px-1 absolute w-full top-4">
       <div className="max-w-[1320px] mx-auto">
         <div className="flex justify-between items-center ">
           <div className="lg:w-[20%]">
@@ -81,7 +81,7 @@ const Navber = () => {
             </ul>
           </div>
           <div className="w-[20%]">
-            <button className="py-[14px] px-[28px]  hidden  ml-auto lg:block border-1   ms:mb-4 sm:mb-4 lg:mb-0 duration-200 border-white text-white rounded-[18px] hover:bg-[#182a3e]">
+            <button className="py-[14px] px-[28px]  hidden  ml-auto lg:block border-1   ms:mb-4 sm:mb-4 lg:mb-0 duration-200 border-white text-white rounded-[18px] hover:bg-[#438bdd]">
               Contact Us
             </button>
           </div>

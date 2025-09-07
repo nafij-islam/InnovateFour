@@ -24,7 +24,7 @@ const Seo = () => {
               type="text"
               placeholder="paste your website links"
             />
-            <button className="lg:py-[30px] md:py-[25] sm:py-[30px] rounded-r-[15px] px-2 md:px-[25px] sm:px-[25px] lg:px-[30px] bg-[#6A55EA]">
+            <button className="lg:py-[30px] text-white md:py-[25] sm:py-[30px] rounded-r-[15px] px-2 md:px-[25px] sm:px-[25px] lg:px-[30px] bg-[#6A55EA]">
               Analyze website
             </button>
           </div>
