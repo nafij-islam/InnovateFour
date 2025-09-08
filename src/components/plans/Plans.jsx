@@ -5,7 +5,7 @@ import { LiaWindowCloseSolid } from "react-icons/lia";
 
 const Plans = () => {
   return (
-    <section className="px-1 py-[80px]">
+    <section className="px-1 py-[30px] lg:py-[80px]">
       <div className="max-w-[1320px] mx-auto">
         <div className="text-center pb-[60px]">
           <h4 className="text-[#7968EF] text-[24px] font-medium pb-[14px]">

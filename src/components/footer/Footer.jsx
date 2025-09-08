@@ -15,28 +15,28 @@ export const Footer = () => {
                 <div className='lg:w-[15%] sm:w-[30%] md:w-[20%] w-[40%%]  '>
                     <h3 className='text-[24px] font-semibold text-[#29313D] pb-[48px]'>Features</h3>
                     <ul>
-                        <li className='text-[20px] font-semibold pb-[30px] text-[#29313D]'>Home</li>
-                        <li className='text-[20px] font-semibold pb-[30px] text-[#29313D]'>About</li>
-                        <li className='text-[20px] font-semibold pb-[30px] text-[#29313D]'>Benifit</li>
-                        <li className='text-[20px] font-semibold pb-[30px] text-[#29313D]'>Pricing</li>
+                        <li className='text-[20px] font-normal pb-[30px] text-[#29313D]'>Home</li>
+                        <li className='text-[20px] font-normal pb-[30px] text-[#29313D]'>About</li>
+                        <li className='text-[20px] font-normal pb-[30px] text-[#29313D]'>Benifit</li>
+                        <li className='text-[20px] font-normal pb-[30px] text-[#29313D]'>Pricing</li>
                         <li className='text-[20px] font-semibold  text-[#29313D]'>Blog</li>
                     </ul>
                 </div>
                 <div className='lg:w-[20%] sm:w-[30%] md:w-[25%] w-[60%]'>
-                    <h3 className='text-[24px] font-semibold text-[#29313D] pb-[48px]'>Products</h3>
+                    <h3 className='text-[24px] font-semibold text-[#29313D] lg:pt-0 md:pt-0 pt-4 sm:pt-0 pb-[48px]'>Products</h3>
                     <ul>
-                        <li className='text-[20px] font-semibold pb-[30px] text-[#29313D]'>Task Management</li>
-                        <li className='text-[20px] font-semibold pb-[30px] text-[#29313D]'>Company growth</li>
-                        <li className='text-[20px] font-semibold pb-[30px] text-[#29313D]'>Time tracking</li>
+                        <li className='text-[20px] font-normal pb-[30px] text-[#29313D]'>Task Management</li>
+                        <li className='text-[20px] font-normal pb-[30px] text-[#29313D]'>Company growth</li>
+                        <li className='text-[20px] font-normal pb-[30px] text-[#29313D]'>Time tracking</li>
                     </ul>
 
                 </div>
                 <div className='lg:w-[20%] md:w-[15%] w-[40%]'>
                     <h3 className='text-[24px] font-semibold text-[#29313D] pb-[48px]'>Support</h3>
                     <ul>
-                        <li className='text-[20px] font-semibold pb-[30px] text-[#29313D]'>Customer service</li>
-                        <li className='text-[20px] font-semibold pb-[30px] text-[#29313D]'>Accessibility</li>
-                        <li className='text-[20px] font-semibold pb-[30px] text-[#29313D]'>Contact us</li>
+                        <li className='text-[20px] font-normal pb-[30px] text-[#29313D]'>Customer service</li>
+                        <li className='text-[20px] font-normal pb-[30px] text-[#29313D]'>Accessibility</li>
+                        <li className='text-[20px] font-normal pb-[30px] text-[#29313D]'>Contact us</li>
                     </ul>
 
                 </div>
@@ -45,10 +45,10 @@ export const Footer = () => {
             <div>
                 
             </div>
-            <div className='flex justify-between'>
-                <h4>@20201 Innovate.All rights reserved.</h4>
+            <div className='lg:flex lg:justify-between md:flex md:justify-between flex justify-between sm:flex sm:justify-between'>
+                <h4 className=''>@20201 Innovate.All rights reserved.</h4>
 
-                <div className='flex lg:gap-8 md:gap-6 sm:gap-4 gap-4'>
+                <div className='lg:flex lg:gap-7 md:flex md:gap-4 sm:flex sm:gap-4 flex gap-2'>
                     <h4>Privacy policy</h4>
                     <h4>Terms & condition</h4>
 
